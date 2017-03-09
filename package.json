@@ -1,0 +1,19 @@
+{
+  "name": "bf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "bf": "npm run build && node lib/Index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "fs": "0.0.1-security",
+    "readline-sync": "^1.4.6"
+  }
+}
